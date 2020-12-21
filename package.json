@@ -1,0 +1,33 @@
+{
+    "name": "discord-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src",
+        "dev": "nodemon src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/botsocket/new-moderation.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/botsocket/new-moderation/issues"
+    },
+    "homepage": "https://github.com/botsocket/new-moderation#readme",
+    "dependencies": {
+        "@botsocket/bone": "^1.0.0",
+        "@botsocket/bornite": "^1.1.0",
+        "@botsocket/jade": "^1.0.1",
+        "@botsocket/quartz": "^1.0.2",
+        "dotenv": "^8.2.0"
+    },
+    "devDependencies": {
+        "@hapi/eslint-plugin-hapi": "^4.3.6",
+        "eslint": "^6.8.0",
+        "nodemon": "^2.0.6"
+    }
+}
